@@ -1,0 +1,104 @@
+:root {
+  --bg-light: #ffffff;
+  --text-light: #000000;
+  --bg-dark: #121212;
+  --text-dark: #ffffff;
+     --primary1-100:#d4eaf7;
+    --primary2-200:#b6ccd8;
+    --primary3-300:#3b3c3d;
+    --accent4-100:#71c4ef;
+    --accent5-200:#00668c;
+    --text6-100:#1d1c1c;
+    --text7-200:#313d44;
+    --bg8-100:#fffefb;
+    --bg9-200:#f5f4f1;
+    --bg10-300:#cccbc8;
+
+          --primarya0-100:#1F3A5F;
+    --primarya1-200:#4d648d;
+    --primarya2-300:#acc2ef;
+    --accenta3-100:#3D5A80;
+    --accenta4-200:#cee8ff;
+    --texta5-100:#FFFFFF;
+    --texta6-200:#e0e0e0;
+    --bga7-100:#0F1C2E;
+    --bga8-200:#1f2b3e;
+    --bga9-300:#374357;
+      
+}
+
+[data-theme="light"] {
+  background-color: var(--bg-light);
+  color: var(--text-light);
+}
+
+[data-theme="dark"] {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+}
+[data-theme="dark"] .topbar{
+    background-color:var(--bga8-200) ;
+}
+
+[data-theme="light"] .topbar{
+    background-color: var(--bg10-300) ;
+}
+
+
+[data-theme="light"] .nav-h1 , .nav-btn{
+    color: var(--text-light) ;
+}
+[data-theme="light"] .sun {
+    color: var(--text-light) ;
+}
+[data-theme="dark"] .nav-btn{
+    color: var(--accenta4-200) ;
+}
+[data-theme="dark"] .nav-h1 {
+    color: var(--accenta4-200) ;
+}
+
+[data-theme="dark"] .login-btn{
+    background-color: var(--accent5-200);
+}
+[data-theme="dark"] .login-btn:hover{
+    background-color: rgba(76, 0, 130, 0.616) ;
+}
+[data-theme="light"] .login-btn{
+    background-color: var(--bga9-300);
+     color: var(--texta6-200);
+}
+[data-theme="light"] .login-btn:hover{
+    background-color: rgba(76, 0, 130, 0.616) ;
+}
+[data-theme="dark"] .login-box{
+    background-color: var(--bga7-100) ;
+}
+
+[data-theme="dark"] .login-box h2{
+    color: var(--accenta4-200);
+}
+[data-theme="dark"] .login-box p{
+    color: var(--accenta4-200);
+}
+
+[data-theme="light"] .login-box{
+    background-color: var(--bg9-200) ;
+}
+[data-theme="dark"] .log-form label{
+    color: var(--accenta4-200);
+}
+[data-theme="dark"] .log-form input{
+    color: var(--text6-100);
+}
+[data-theme="light"] .log-form label{
+    color: var(--text-light);
+}
+
+
+[data-theme="dark"] h2 {
+    color: var(--texta6-200);
+}
+[data-theme="light"] h2{
+    color: var(--text-light);
+}
